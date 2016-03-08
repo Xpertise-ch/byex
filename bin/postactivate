@@ -1,3 +1,5 @@
 #!/usr/bin/zsh
 # This hook is sourced after this virtualenv is activated.
 
+cd /home/bossip/.virtualenvs/wordcounts
+export APP_SETTINGS="config.DevelopmentConfig"
